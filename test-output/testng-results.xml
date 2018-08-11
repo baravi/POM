@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="193" started-at="2018-08-11T10:42:24Z" finished-at="2018-08-11T10:42:24Z">
+    <groups>
+      <group name="smoke">
+        <method signature="EditLead.editLead()[pri:0, instance:testcase.EditLead@2286778]" name="editLead" class="testcase.EditLead"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="DeleteLead.deleteLead()[pri:0, instance:testcase.DeleteLead@4e9ba398]" name="deleteLead" class="testcase.DeleteLead"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="193" started-at="2018-08-11T10:42:24Z" finished-at="2018-08-11T10:42:24Z">
+      <class name="testcase.DeleteLead">
+        <test-method status="PASS" signature="deleteLead()[pri:0, instance:testcase.DeleteLead@4e9ba398]" name="deleteLead" duration-ms="32" started-at="2018-08-11T10:42:24Z" finished-at="2018-08-11T10:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+      </class> <!-- testcase.DeleteLead -->
+      <class name="testcase.EditLead">
+        <test-method status="PASS" signature="editLead()[pri:0, instance:testcase.EditLead@2286778]" name="editLead" duration-ms="32" started-at="2018-08-11T10:42:24Z" finished-at="2018-08-11T10:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+      </class> <!-- testcase.EditLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
